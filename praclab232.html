@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chel</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #d3bbbb;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    header {
+        background-color: #4d2525;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        border-radius: 41px;
+        background: #d96363;
+        box-shadow: inset 29px 29px 70px #944343, inset -29px -29px 70px #ff8383;
+        width: 80%; 
+    }
+
+    nav {
+        background-color: #ee1414;
+        color: white;
+        padding: 15px 0;
+        margin: 0;
+        border-radius: 41px;
+        background: #934343;
+        box-shadow: inset 29px 29px 70px #642e2e, inset -29px -29px 70px #c25858;
+        width: 80%; 
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+        gap: 30px; 
+    }
+
+    nav ul li {
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #934343;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        display: block;
+        padding: 5px 10px;
+    }
+
+    nav ul li:hover {
+        background-color: #d9534f;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between; 
+        gap: 20px; 
+        margin: 20px;
+        width: 80%; 
+    }
+
+    section, article, aside {
+        padding: 20px;
+        border-radius: 41px;
+        background: #d96363;
+        box-shadow: inset 29px 29px 70px #944343, inset -29px -29px 70px #ff8383;
+        width: 100%; 
+        min-width: 200px; 
+    }
+
+    section {
+        flex: 2; 
+    }
+
+    article {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1; 
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        width: 100%; 
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    aside ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    aside ul li {
+        background-color: #e8a1a1;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    aside ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: block;
+    }
+
+    aside ul li:hover {
+        background-color: #f1d2d2;
+    }
+
+    aside ul li a::before {
+        content: "\2192"; 
+        margin-right: 8px;
+        font-size: 18px;
+        color: #e74c3c;
+    }
+
+    article {
+        background-color: #f1d2d2; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    article h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #d9534f;
+    }
+
+    article p {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    section {
+        background-color: #e8a1a1; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #d9534f;
+    }
+
+    section p {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1>LYCHEL</h1>
+        <p>Welcome to our sample website!</p>
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+ 
+    <div class="content">
+        <section>
+            <h2>About Us</h2>
+            <p>hi hello hi hi hi hello hi</p>
+        </section>
+        
+        <article>
+            <h2>Latest News</h2>
+            <p>This is the latest news article. Stay tuned for more updates on our website and our upcoming services!</p>
+        </article>
+ 
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </div>
+ 
+    <footer>
+        <p>&copy; 2025 Sample Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
